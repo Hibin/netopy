@@ -19,12 +19,13 @@ expenses_tourist1 = [500, 100, 50, 80]
 expenses_tourist2 = [90, 763, 345, 229, 10]
 expenses_tourist3 = [83, 6, 223, 1000, 4, 980]
 
+# expenses sum
 expenses_tourist1_sum = sum(expenses_tourist1);
 expenses_tourist2_sum = sum(expenses_tourist2);
 expenses_tourist3_sum = sum(expenses_tourist3);
 
+# total expenses sum
 expenses_tourists_all_sum = sum([expenses_tourist1_sum, expenses_tourist2_sum, expenses_tourist3_sum])
-
 
 # sum, euro
 trip_cost_euro = (trip_length1 + trip_length2 + trip_length3) * day_cost
