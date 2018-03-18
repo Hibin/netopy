@@ -1,7 +1,7 @@
 # Текущий курс евро
 # https://www.cbr-xml-daily.ru/daily_json.js
 
-import urllib.request, json, math
+import urllib.request, json
 
 data_url = 'https://www.cbr-xml-daily.ru/daily_json.js'
 currency = 'EUR'
