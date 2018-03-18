@@ -1,6 +1,6 @@
 import math
 
-day_cost = int(input('Стоимость суток, евро: ')) # euro
+day_cost = int(input('Стоимость суток, евро:')) # euro
 
 euro_exchange_rate = 70.71
 budget_euro = 20000
